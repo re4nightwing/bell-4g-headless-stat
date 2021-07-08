@@ -29,6 +29,6 @@ try:
 except:
     os.system("notify-send 'Something went wrong, Please try again!'")
 
-time.sleep(3)
+time.sleep(1)
 print("exiting")
 driver.quit()

@@ -40,5 +40,11 @@ label = %output%
 exec = echo "<your icon here>"
 click-left = python3 /path/to/script/bell-notify.py
 ```
+or
+you can replace [module/wlan] `label-connected = %essid%` with,
+```
+label-connected = %{A1:python3 /path/to/script/bell-notify.py:}%essid%%{A}
+
+```
 #### Screenshot
 ![cool image here](https://i.imgur.com/Gn4bBmw.png)

@@ -41,6 +41,7 @@ exec = echo "<your icon here>"
 click-left = python3 /path/to/script/bell-notify.py
 ```
 or
+
 you can replace [module/wlan] `label-connected = %essid%` with,
 ```
 label-connected = %{A1:python3 /path/to/script/bell-notify.py:}%essid%%{A}
